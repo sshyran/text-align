@@ -16,9 +16,11 @@ or download the css on github and include in your project.
 
 ## File Size
 
-gzipped & minified - 155B 
-text-align.min.css - 407B 
-text-align.css - 777B 
+| File                 | Size |
+| -------------------- | ----:|
+| gzipped & minified   | 155B |
+| text-align.min.css   | 407B |
+| text-align.css       | 777B |
 
 ## The Code
 ```
