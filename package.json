@@ -1,0 +1,30 @@
+{
+  "name": "text-align.css",
+  "version": "0.0.1",
+  "homepage": "http://mrmrs.io/text-align.css",
+  "description": "",
+  "keywords": [
+    "oocss",
+    "text-align",
+    "css",
+    "rwd",
+    "responsive design",
+    "design"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/text-align.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/text-align/issues"
+  },
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "adam morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
