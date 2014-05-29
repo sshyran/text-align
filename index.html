@@ -9,20 +9,27 @@
     <link rel="stylesheet" href="text-align.min.css">
     <style>
       html { font-family: avenir, helvetica, arial, comic-sans, sans-serif; }
+      .title { text-transform: uppercase; letter-spacing: .2em; }
       .bg-teal  { background: #39CCCC; }
-      .pa { padding: 2rem; }
+      .pa { padding: 3rem 2rem; }
+      .mb { margin-bottom: 3rem; }
       section { margin-bottom: 6rem; }
-      p { background: #FFeeee; } 
+      p { background: #FFeeee; padding: 1rem; } 
       h2 { font-weight: 100; font-size: 20px;  }
       a { text-decoration: none; }
+      .btn { color: #666; border-radius: 4px; background: #eee; border: 1px solid #ddd; padding: 16px 16px; font-size: 12px; -webkit-transition: .4s background-color; } 
+      .btn:hover {  background: #dedede; -webkit-transition: .4s background-color; } 
+      header { border-bottom: 1px dotted #ddd; margin-bottom: 4rem;}
     </style>
   </head>
   <body>
     <header class="pa tc">
-      <h1>TEXT-ALIGN.CSS</h1>
-      <h2>A small module by <a href="http://mrmrs.io">mrmrs</a></h2>
+      <h1 class="title">TEXT-ALIGN.CSS</h1>
+      <h2 class="mb">A small css module for setting text-alignment.</h2>
+      <a href="http://github.com/mrmrs/text-align" class="title btn">View on Github</a>
     </header>
     <main style="max-width:64em; margin: 0 auto;">
+    <h1 style="font-weight:100;font-size: 16px; " class="title">The Demos</h1>
     <section>
       <h1><span class="bg-teal">Mobile-first classes</span></h1>
       <p><b>Applies to all breakpoints</b></p>
