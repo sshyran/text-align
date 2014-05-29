@@ -8,51 +8,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="text-align.min.css">
     <style>
+      h1, h2, h3 { font-size: 20px; }
       html { font-family: avenir, helvetica, arial, comic-sans, sans-serif; }
-      .bg-teal  { background: #39CCCC; }
-      .pa { padding: 2rem; }
+      .title { text-transform: uppercase; letter-spacing: .2em; }
+      .  { background: #39CCCC; }
+      .pa { padding: 3rem 2rem; }
+      .mb { margin-bottom: 2rem; }
       section { margin-bottom: 6rem; }
-      p { background: #FFeeee; } 
+      main p { background: #c3eeff; padding: 1rem; } 
       h2 { font-weight: 100; font-size: 20px;  }
       a { text-decoration: none; }
+      .btn { color: #666; border-radius: 4px; background: #eee; border: 1px solid #ddd; padding: 16px 16px; font-size: 12px; -webkit-transition: .4s background-color; } 
+      .btn:hover {  background: #dedede; -webkit-transition: .4s background-color; } 
+      header { border-bottom: 1px dotted #ddd; margin-bottom: 4rem;}
     </style>
   </head>
   <body>
     <header class="pa tc">
-      <h1>TEXT-ALIGN.CSS</h1>
-      <h2>A small module by <a href="http://mrmrs.io">mrmrs</a></h2>
+      <h1 class="title">TEXT-ALIGN.CSS</h1>
+      <h2 class="mb" style="font-size:16px;">A small css module for setting text-alignment.</h2>
+      <a href="http://github.com/mrmrs/text-align" class="title btn">View on Github</a>
+      <p style="margin-top:2rem;">Install with npm</p>
+      <code style="background: #c3eeff; padding: 8px;" >npm install --save-dev text-align.css</code>
     </header>
     <main style="max-width:64em; margin: 0 auto;">
+    <h1 style="font-weight:100;font-size: 16px; " class="title">The Demos</h1>
     <section>
-      <h1><span class="bg-teal">Mobile-first classes</span></h1>
+      <h1><span class="">Mobile-first classes</span></h1>
       <p><b>Applies to all breakpoints</b></p>
-      <p class="tl">This is some left-aligned sample text</p>
-      <p class="tr">This is some right-aligned sample text</p>
-      <p class="tc">This is some centered sample text</p>
+      <p class="tl">left-aligned text</p>
+      <p class="tr">right-aligned text</p>
+      <p class="tc">centered text</p>
     </section>
     <section>
-      <h1><span class="bg-teal">Larger than 'mobile'</span></h1>
+      <h1><span class="">Larger than 'mobile'</span></h1>
       <p><b>Applies to breakpoints larger than mobile</b></p>
       <p class="tl-ns">This is some left-aligned sample text for screens larger than mobile</p>
       <p class="tr-ns">This is some right-aligned sample text for screens larger than mobile</p>
       <p class="tc-ns">This is some centered sample text for screens larger than mobile</p>
     </section>
     <section>
-      <h1><span class="bg-teal">Medium breakpoint</span></h1>
+      <h1><span class="">Medium breakpoint</span></h1>
       <p><b>Applies to larger than mobile and smaller than desktop only.</b></p>
       <p class="tl-m">This is some left-aligned sample text for the medium breakpoint</p>
       <p class="tr-m">This is some right-aligned sample text for the medium breakpoint</p>
       <p class="tc-m">This is some centered sample text for medium breakpoint</p>
     </section>
     <section>
-      <h1><span class="bg-teal">Large breakpoint</span></h1>
+      <h1><span class="">Large breakpoint</span></h1>
       <p><b>Applies to everything larger than desktop</b></p>
       <p class="tl-l">This is some left-aligned sample text for desktop and larger</p>
       <p class="tr-l">This is some right-aligned sample text for desktop and larger</p>
       <p class="tc-l">This is some centered sample text for desktop and larger</p>
     </section>
     <section>
-      <h1><span class="bg-teal">Multi-class pattern example</span></h1>
+      <h1><span class="">Multi-class pattern example</span></h1>
         <p class="tr tl-m tc-ns">
          This shows a paragraph where the text-align property changes at various breakpoints on a single element.</p>
     </section>
